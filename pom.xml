@@ -1,0 +1,10 @@
+<distributionManagement>
+    <repository>
+        <id>repo</id>
+        <url>https://github.com</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshot-repo</id>
+        <url>https://github.com</url>
+    </snapshotRepository>
+</distributionManagement>
