@@ -30,6 +30,6 @@ mvnrepo
 * clone repository
 * run the following command for desired artifact:
 
-mvn deploy:deploy-file -DgroupId=com.syvys -DartifactId=jaRBM -Dversion=1.1 -Dpackaging=jar -Dfile=/filelocation/jaRBM_v1.1.jar -Durl=file:/pathToRepository/mvnrepo/releases
+mvn deploy:deploy-file -DgroupId=com.syvys -DartifactId=jaRBM -Dversion=1.1 -Dpackaging=jar -Dfile=/pathToFile/jaRBM_v1.1.jar -Durl=file:/pathToRepository/mvnrepo/releases
 
 * add, commit, push
